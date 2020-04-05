@@ -6,7 +6,7 @@ O nome do App é uma homenagem ao Cineasta Federico Fellini
 ## MainActivity
 Na MainActivity há um TabLayout integrado a um ViewPager que contém as seções a lista de filmes das categorias principais: 
 
-<img src="https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/solution/screenshots/Screenshot_1574691877.png" width="250">
+![Main App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp.png)
 
 ### Top Rated
 Os filmes mais bem avaliados 
