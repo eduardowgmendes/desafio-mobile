@@ -4,7 +4,8 @@
 O app tem como por objetivo apresentar os filmes que estão em cartaz e exibição nos cinemas além de outros filmes que são os filmes favoritos da comunidade. Ele consome uma API popular chamada de `TheMovieDatabase` para trazer os dados para o app. O nome do App é uma homenagem ao Cineasta Federico Fellini.  
 
 ### Informações do Teste 
-Para desenvolvimento foram disponibilizados 4 dias. Os requisitos para desenvolvimento podem ser encontrados no final desse arquivo.     
+Para desenvolvimento foram disponibilizados 4 dias. Os requisitos para desenvolvimento podem ser encontrados no [final](https://github.com/eduardowgmendes/desafio-mobile#instru%C3%A7%C3%B5es) desse arquivo.     
+
 
 ### Categorias 
 O app traz ao usuário diversas categorias de filmes das quais as principais são:  
@@ -17,13 +18,20 @@ O app traz ao usuário diversas categorias de filmes das quais as principais sã
 
 * **Now Playing** - Os que estão sendo exibidos nos cinemas.
 
+![Categories](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-ii.png)
 
+### Overview 
+Ao selecionar algum filme específico o app lhe apresentará informações básicas sobre o filme em questão, tais como: 
 
-## Movie Overview 
-Ao clicar em algum filme na lista de filmes o usuário é levado à ActivityMovieOverivew
-e tem diversas informações sobre o filme selecionado:
+* **Sinopse**
+* **Elenco Principal**
+* **Elenco Geral**
+* **Categorias do Filme** 
 
-![Main App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp.png)
+![App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iii.png) 
+
+![Movie Contents](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iv.png)
+
   
 ## Bibliotecas 
 Para o desenvolvimento da aplicação foram utilizadas bibliotecas como o `Picasso` para cache, gerenciamento e controle de imagens, o `Retrofit` para consumo da API do *TheMovieDatabase*, `GSON` para parsing das requisições no formato `JSON`.   
