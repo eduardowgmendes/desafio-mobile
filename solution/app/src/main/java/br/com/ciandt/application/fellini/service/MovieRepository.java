@@ -23,7 +23,7 @@ public class MovieRepository {
     public static final String UPCOMING = "upcoming";
     public static final String NOW_PLAYING = "now_playing";
 
-    public static final String LANGUAGE = APIConstants.LANGUAGE_EN_US;
+    public static final String LANGUAGE = APIConstants.LANGUAGE_PT_BR;
 
     private static MovieRepository movieRepo;
     private TheMovieDataBaseAPI api;
