@@ -35,6 +35,11 @@ Em conjunto com as informações básicas do filme, você encontra uma seção d
 
 ![Movie Contents](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iv.png)
 
+### Categorias 
+Também é apresentado ao usuário uma lista de categorias referentes ao filme selecinado. 
+
+![]()
+
   
 ## Bibliotecas 
 Para o desenvolvimento da aplicação foram utilizadas bibliotecas como o `Picasso` para cache, gerenciamento e controle de imagens, o `Retrofit` para consumo da API do *TheMovieDatabase*, `GSON` para parsing das requisições no formato `JSON`.   
