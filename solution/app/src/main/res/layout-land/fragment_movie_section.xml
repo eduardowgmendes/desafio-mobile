@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="android.support.v7.widget.GridLayoutManager"
-        app:spanCount="5"
-        tools:listitem="@layout/movie_item_layout"/>
+        app:spanCount="8"
+        tools:listitem="@layout/movie_item_layout" />
 
 </LinearLayout>
