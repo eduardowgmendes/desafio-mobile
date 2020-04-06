@@ -1,6 +1,6 @@
 # desafio-mobile 2019
 
-## Fellini 
+# Fellini 
 O app tem como por objetivo apresentar os filmes que estão em cartaz e exibição nos cinemas além de outros filmes que são os filmes favoritos da comunidade. Ele consome uma API popular chamada de `TheMovieDatabase` para trazer os dados para o app. O nome do App é uma homenagem ao Cineasta Federico Fellini.  
 
 ### Informações do Teste 
@@ -36,9 +36,9 @@ Em conjunto com as informações básicas do filme, você encontra uma seção d
 ![Movie Contents](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iv.png)
 
 ### Categorias 
-Também é apresentado ao usuário uma lista de categorias referentes ao filme selecinado. 
+Também é apresentado ao usuário uma lista de categorias referentes ao filme selecinado. Futuramente adicionarei recurso de pesquisa por categorias por isso a escolha do componente `Chips` do Android. 
 
-![]()
+![Categories](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-v.png)
 
   
 ## Bibliotecas 
