@@ -1,38 +1,32 @@
 # desafio-mobile 2019
 
 ## Fellini 
-O nome do App é uma homenagem ao Cineasta Federico Fellini 
+O app tem como por objetivo apresentar os filmes que estão em cartaz e exibição nos cinemas além de outros filmes que são os filmes favoritos da comunidade. Ele consome uma API popular chamada de `TheMovieDatabase` para trazer os dados para o app. O nome do App é uma homenagem ao Cineasta Federico Fellini.  
 
-## MainActivity
-Na MainActivity há um TabLayout integrado a um ViewPager que contém as seções a lista de filmes das categorias principais: 
+### Informações do Teste 
+Para desenvolvimento foram disponibilizados 4 dias. Os requisitos para desenvolvimento podem ser encontrados no final desse arquivo.     
 
-![Main App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp.png)
+### Categorias 
+O app traz ao usuário diversas categorias de filmes das quais as principais são:  
 
-### Top Rated
-Os filmes mais bem avaliados 
+* **Top Rated** - Os filmes mais bem avaliados da comunidade do *The Movie Database* 
 
-### Popular
-Filmes populares 
+* **Popular** - Filmes populares entre a comunidade do *The Movie Database*.
 
-### Upcoming
-Os que estão em pós produção ou já em cartaz
+* **Upcoming** - Os que estão em pós produção ou já em cartaz nos cinemas.
 
-### Now Playing
-Os que estão sendo exibidos nos cinemas
+* **Now Playing** - Os que estão sendo exibidos nos cinemas.
+
+
 
 ## Movie Overview 
 Ao clicar em algum filme na lista de filmes o usuário é levado à ActivityMovieOverivew
 e tem diversas informações sobre o filme selecionado:
 
-<img src="https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/solution/screenshots/Screenshot_1574688374.png" width="250"> 
-
-<img src="https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/solution/screenshots/Screenshot_1574688550.png" width="250"> 
-
-<img src="https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/solution/screenshots/Screenshot_1574688573.png" width="250">
+![Main App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp.png)
   
 ## Bibliotecas 
-Para o desenvolvimento da aplicação foram utilizadas bibliotecas como o 
-Picasso para cache, gerenciamento e controle de imagens, o Retrofit para consumo da API do TheMovieDatabase, GSON para parsing das requisições.   
+Para o desenvolvimento da aplicação foram utilizadas bibliotecas como o `Picasso` para cache, gerenciamento e controle de imagens, o `Retrofit` para consumo da API do *TheMovieDatabase*, `GSON` para parsing das requisições no formato `JSON`.   
   
 ## Suporte a orientação Landscape
 Para dar suporte às duas orientações foram criados diversos layouts independentes com qualificadores de densidade de pixels, tamanhos e orientações. 

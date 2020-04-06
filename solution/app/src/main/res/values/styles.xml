@@ -23,4 +23,9 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="AllAppTitles">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
 </resources>

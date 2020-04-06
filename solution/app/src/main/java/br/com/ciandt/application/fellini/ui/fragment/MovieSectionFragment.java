@@ -96,49 +96,6 @@ public class MovieSectionFragment extends Fragment {
 
         });
 
-        /*Call<MovieResponse> latestMovies = movieService.getMoviesFromPath(desiredPath, BuildConfig.THE_MOVIE_DATABASE_API_TOKEN);
-        latestMovies.enqueue(new Callback<MovieResponse>() {
-            @Override
-            public void onResponse(Call<MovieResponse> call, Response<MovieResponse> response) {
-
-                movies = response.body().getResults();
-
-                generalAdapter = new GeneralAdapter<Movie>(getContext(), movies) {
-                    @Override
-                    public RecyclerView.ViewHolder setViewHolder(ViewGroup parent, int viewType) {
-                        return new MovieViewHolder(LayoutInflater.from(getContext()).inflate(R.layout.movie_item_layout, parent, false), new OnClickListener() {
-                            @Override
-                            public void onItemClickListener(int position) {
-                                Intent intent = new Intent(getActivity(), MovieOverviewActivity.class);
-                                intent.putExtra("movie", movies.get(position));
-                                startActivity(intent);
-                            }
-
-                            @Override
-                            public void onItemLongClickListener(int position) {
-
-                            }
-                        });
-                    }
-
-                    @Override
-                    public void onBindData(RecyclerView.ViewHolder viewHolder, Movie item) {
-                        MovieViewHolder movieViewHolder = (MovieViewHolder) viewHolder;
-                        movieViewHolder.bind(item);
-                    }
-                };
-
-                moviesListRecyclerView.setAdapter(generalAdapter);
-
-            }
-
-            @Override
-            public void onFailure(Call<MovieResponse> call, Throwable t) {
-
-            }
-        });
-*/
-
         return itemView;
     }
 
