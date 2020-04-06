@@ -30,6 +30,9 @@ Ao selecionar algum filme específico o app lhe apresentará informações bási
 
 ![App Screens](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iii.png) 
 
+### Elenco Principal e Elenco Geral
+Em conjunto com as informações básicas do filme, você encontra uma seção dedicada ao elenco principal que é mostrado automaticamente e um botão o leva a uma lista completa com todos os integrantes da equipe de produção do filme incluindo o elenco principal. 
+
 ![Movie Contents](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iv.png)
 
   
