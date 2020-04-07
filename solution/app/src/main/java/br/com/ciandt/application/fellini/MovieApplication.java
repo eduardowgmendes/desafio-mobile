@@ -1,6 +1,8 @@
 package br.com.ciandt.application.fellini;
 
 import android.app.Application;
+import android.content.Context;
+import android.net.ConnectivityManager;
 
 import com.squareup.picasso.Picasso;
 
@@ -11,6 +13,8 @@ import br.com.ciandt.application.fellini.service.legacycode.MovieService;
 import br.com.ciandt.application.fellini.service.legacycode.SearchService;
 
 public class MovieApplication extends Application {
+
+    private ConnectivityManager connectivityManager;
 
     private static final String TAG = "movieapplication";
 
@@ -26,9 +30,15 @@ public class MovieApplication extends Application {
 
         instance = this;
 
+        connectivityManager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+
         /* SquareUp Picasso Lib Singleton Instance */
         Picasso.setSingletonInstance(new Picasso.Builder(this).build());
 
+    }
+
+    public ConnectivityManager getConnectivityManager() {
+        return connectivityManager;
     }
 
     @Override

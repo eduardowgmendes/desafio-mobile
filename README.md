@@ -36,7 +36,7 @@ Em conjunto com as informações básicas do filme, você encontra uma seção d
 ![Movie Contents](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-iv.png)
 
 ### Categorias 
-Também é apresentado ao usuário uma lista de categorias referentes ao filme selecinado. Futuramente adicionarei recurso de pesquisa por categorias por isso a escolha do componente `Chips` do Android. 
+Também é apresentado ao usuário uma lista de categorias referentes ao filme selecinado. Futuramente adicionarei recurso de pesquisa por categorias por isso a escolha do componente [`Chips`](https://material.io/develop/android/components/chip/) do Android. 
 
 ![Categories](https://raw.githubusercontent.com/eduardowgmendes/desafio-mobile/master/screenshots/final-screenshots/main-comp-v.png)
 

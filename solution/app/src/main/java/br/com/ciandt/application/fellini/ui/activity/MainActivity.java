@@ -1,5 +1,8 @@
 package br.com.ciandt.application.fellini.ui.activity;
 
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.design.chip.Chip;
 import android.support.design.chip.ChipGroup;
@@ -13,14 +16,16 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import br.com.ciandt.application.fellini.ConnectivityReceiver;
 import br.com.ciandt.application.fellini.R;
 import br.com.ciandt.application.fellini.domain.movie.Movie;
 import br.com.ciandt.application.fellini.service.MovieRepository;
 import br.com.ciandt.application.fellini.service.callbacks.OnGettingMoviesCallback;
+import br.com.ciandt.application.fellini.ui.abstractactivity.AbstractActivity;
 import br.com.ciandt.application.fellini.ui.datagroups.OnClickListener;
 import br.com.ciandt.application.fellini.ui.datagroups.viewpager.SectionViewPagerAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AbstractActivity {
 
     private static final String TAG = "mainactivity";
 
@@ -52,5 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }

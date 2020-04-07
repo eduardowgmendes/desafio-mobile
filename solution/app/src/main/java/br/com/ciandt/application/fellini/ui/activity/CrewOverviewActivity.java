@@ -16,6 +16,7 @@ import br.com.ciandt.application.fellini.domain.crew.Credit;
 import br.com.ciandt.application.fellini.service.MovieRepository;
 import br.com.ciandt.application.fellini.service.callbacks.OnGettingCreditsCallback;
 import br.com.ciandt.application.fellini.service.legacycode.CrewService;
+import br.com.ciandt.application.fellini.ui.abstractactivity.AbstractActivity;
 import br.com.ciandt.application.fellini.ui.datagroups.GeneralAdapter;
 import br.com.ciandt.application.fellini.ui.datagroups.viewholders.CrewViewHolder;
 import br.com.ciandt.application.fellini.utils.CollectionHandlingUtil;
@@ -23,7 +24,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class CrewOverviewActivity extends AppCompatActivity {
+public class CrewOverviewActivity extends AbstractActivity {
 
     private int movieId;
     private RecyclerView allCrewList, allCastList;
